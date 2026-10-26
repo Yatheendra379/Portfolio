@@ -321,8 +321,16 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
             'Principal Developer',
             'Heera Edutech Private Limited',
           ),
-          ('2023 — 2024', 'Senior Software Developer', 'BitsSens Technologies'),
-          ('2021 — 2022', 'Software Engineer', 'Irax Tech Private Limited'),
+          (
+            'Jan 2023 — Jan 2024',
+            'Senior Software Developer',
+            'BitsSens Technologies',
+          ),
+          (
+            'Jul 2021 — Dec 2022',
+            'Software Engineer',
+            'Irax Tech Private Limited',
+          ),
         ])
           ListTile(
             contentPadding: const EdgeInsets.symmetric(vertical: 14),
@@ -345,8 +353,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         const Heading('03 · CAPABILITIES', 'From interface to infrastructure.'),
         const SizedBox(height: 30),
         for (final x in [
-          ('Mobile', 'Flutter, Dart, Android, iOS, GetX, BLoC'),
-          ('Frontend', 'React, Flutter Web'),
+          ('Front End', 'Flutter, Dart, Android, iOS, React, GetX, BLoC'),
           (
             'Backend & data',
             'Java, .NET, Node.js, REST APIs, Firebase, SQL, SQLite, Drift ORM',
