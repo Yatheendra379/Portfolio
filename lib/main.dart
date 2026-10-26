@@ -317,8 +317,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         const SizedBox(height: 30),
         for (final x in [
           (
-            '2024 — Present',
-            'Full Stack Mobile Developer (Principal)',
+            'Jan 2024 — Sep 2026',
+            'Principal Developer',
             'Heera Edutech Private Limited',
           ),
           ('2023 — 2024', 'Senior Software Developer', 'BitsSens Technologies'),
@@ -346,10 +346,12 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         const SizedBox(height: 30),
         for (final x in [
           ('Mobile', 'Flutter, Dart, Android, iOS, GetX, BLoC'),
+          ('Frontend', 'React, Flutter Web'),
           (
             'Backend & data',
-            'REST APIs, Firebase, GCP, SQL, SQLite, Drift ORM',
+            'Java, .NET, Node.js, REST APIs, Firebase, SQL, SQLite, Drift ORM',
           ),
+          ('Cloud platforms', 'AWS, Microsoft Azure, GCP'),
           (
             'AI & automation',
             'Prompt engineering, Custom GPTs, LLM workflows, MCP',
